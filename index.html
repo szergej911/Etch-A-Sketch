@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <title>Etch-a-Sketch</title>
+</head>
+<body>
+    <h1>Etch-a-Sketch</h1>
+    <div class="container"></div>
+    <button onclick="setColor('black')">Black</button>
+    <button onclick="setColor('red')">Red</button>
+    <button onclick="setColor('random')">Random</button>
+    <button onclick="resetBoard()">Reset</button>
+    <input type="text" placeholder="Set the size" onchange="changeSize(this.value)">
+    
+</body>
+</html>
